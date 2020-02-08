@@ -422,13 +422,19 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="AddForceForward.cs" t="Include" />
-          <e p="ClusterExplosion.cs" t="Include" />
-          <e p="PlayerAim.cs" t="Include" />
-          <e p="PlayerMovement.cs" t="Include" />
+          <e p="GameEvents.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="PlayerAim.cs" t="Include" />
+            <e p="PlayerHealth.cs" t="Include" />
+            <e p="PlayerMovement.cs" t="Include" />
+          </e>
+          <e p="Projectile" t="Include">
+            <e p="ClusterExplosion.cs" t="Include" />
+            <e p="Projectile.cs" t="Include" />
+            <e p="Shooter.cs" t="Include" />
+            <e p="Spinner.cs" t="Include" />
+          </e>
           <e p="ScreenBoarder.cs" t="Include" />
-          <e p="Shooter.cs" t="Include" />
-          <e p="Spinner.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
