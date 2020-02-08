@@ -12,6 +12,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        GameEvents.OnPlayerDamage();
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
@@ -23,6 +24,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void HealDamage(int damage)
     {
+        GameEvents.OnPlayerHeal();
         currentHealth += damage;
         if (currentHealth > maxHealth)
         {
