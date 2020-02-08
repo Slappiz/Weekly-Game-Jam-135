@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StarSpinner : MonoBehaviour
+public class Spinner : MonoBehaviour
 {
     public float rotationSpeed = 5f;
     
