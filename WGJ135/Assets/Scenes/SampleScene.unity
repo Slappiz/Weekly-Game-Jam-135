@@ -151,6 +151,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2660843580921161707, guid: 344cdbc5b2535a94c95b8e48cf0e3cf1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2660843580921161704, guid: 344cdbc5b2535a94c95b8e48cf0e3cf1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -626,6 +631,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2660843580921161707, guid: 344cdbc5b2535a94c95b8e48cf0e3cf1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2660843580921161704, guid: 344cdbc5b2535a94c95b8e48cf0e3cf1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -776,6 +786,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2660843580921161707, guid: 344cdbc5b2535a94c95b8e48cf0e3cf1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2660843580921161704, guid: 344cdbc5b2535a94c95b8e48cf0e3cf1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -906,5 +921,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2660843580921161718, guid: 344cdbc5b2535a94c95b8e48cf0e3cf1,
+        type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 5828065219503443222, guid: a8614f1ecdea4184d8939b7afa1f5ae1,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 344cdbc5b2535a94c95b8e48cf0e3cf1, type: 3}

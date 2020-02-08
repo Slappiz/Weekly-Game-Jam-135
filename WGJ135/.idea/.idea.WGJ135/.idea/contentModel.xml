@@ -422,6 +422,8 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AddForceForward.cs" t="Include" />
+          <e p="ClusterExplosion.cs" t="Include" />
           <e p="PlayerAim.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="ScreenBoarder.cs" t="Include" />
