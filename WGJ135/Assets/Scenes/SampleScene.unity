@@ -731,13 +731,13 @@ MonoBehaviour:
   projectileForce: 10
   ammoCount: 0
   gunSprite: {fileID: 749670094}
-  redAmmoPrefab: {fileID: 7623024456414400869, guid: b9b24cfad23bc0649922bee078a2c243,
+  redAmmoPrefab: {fileID: 7403791585345892426, guid: 887ec895b991ec842b9b8d6300f3b5b6,
     type: 3}
-  blueAmmoPrefab: {fileID: 7623024456414400869, guid: b9b24cfad23bc0649922bee078a2c243,
+  blueAmmoPrefab: {fileID: 7403791585345892426, guid: 44717c515c314ba43b1e57c91dea90f7,
     type: 3}
-  yellowAmmoPrefab: {fileID: 7623024456414400869, guid: b9b24cfad23bc0649922bee078a2c243,
+  yellowAmmoPrefab: {fileID: 7403791585345892426, guid: 8b7e6acc296ae2247b797c6bf3cd7244,
     type: 3}
-  purpleAmmoPrefab: {fileID: 7623024456414400869, guid: b9b24cfad23bc0649922bee078a2c243,
+  purpleAmmoPrefab: {fileID: 7403791585345892426, guid: f1ed497bb517cd54a8665d6d0b3eaf43,
     type: 3}
 --- !u!4 &539850836 stripped
 Transform:

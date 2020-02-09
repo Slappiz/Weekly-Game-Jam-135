@@ -422,10 +422,12 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Cannon.cs" t="Include" />
           <e p="GameEvents.cs" t="Include" />
           <e p="Heal.cs" t="Include" />
           <e p="Player" t="Include">
             <e p="PlayerAim.cs" t="Include" />
+            <e p="PlayerAmmunition.cs" t="Include" />
             <e p="PlayerGun.cs" t="Include" />
             <e p="PlayerHealth.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
