@@ -34,7 +34,7 @@ public class UIAmmunition : MonoBehaviour
     {
         for (int i = ammoSlots.Count - 1; i >= 0; i--)
         {
-            if (ammoSlots[i].sprite == ammoEmpty)
+            if (ammoSlots[i].sprite == currentSprite)
             {
                 ammoSlots[i].sprite = ammoEmpty;
                 break;
