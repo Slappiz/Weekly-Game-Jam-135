@@ -13,7 +13,7 @@ public class Shooter : MonoBehaviour
         InvokeRepeating("Shoot", 1, timeBetweenShots);
     }
 
-    void Shoot()
+    public void Shoot()
     {
         GameObject projectile = Instantiate(projectilePrefab, transform.position, transform.rotation);
         projectile.transform.localRotation = transform.localRotation;

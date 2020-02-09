@@ -426,6 +426,7 @@
           <e p="Heal.cs" t="Include" />
           <e p="Player" t="Include">
             <e p="PlayerAim.cs" t="Include" />
+            <e p="PlayerGun.cs" t="Include" />
             <e p="PlayerHealth.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
           </e>

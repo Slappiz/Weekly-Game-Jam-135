@@ -16,8 +16,20 @@ public class Star : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            //other.gameObject.GetComponent<PlayerHealth>().TakeDamage(damage);
-            // Todo: set weaponType
+            if (starColor == STAR.Blue)
+            {
+                GameEvents.OnBlueStar();
+            }else if (starColor == STAR.Red)
+            {
+                GameEvents.OnRedStar();
+            }else if (starColor == STAR.Yellow)
+            {
+                GameEvents.OnYellowStar();
+            }else if (starColor == STAR.Purple)
+            {
+                GameEvents.OnPurpleStar();
+            }
+            
             Destroy(this.gameObject);
         }
     }
