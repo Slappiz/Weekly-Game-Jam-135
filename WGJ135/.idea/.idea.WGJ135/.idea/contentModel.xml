@@ -422,27 +422,33 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Cannon.cs" t="Include" />
           <e p="GameEvents.cs" t="Include" />
-          <e p="Heal.cs" t="Include" />
+          <e p="Items" t="Include">
+            <e p="Heal.cs" t="Include" />
+            <e p="Spawner.cs" t="Include" />
+            <e p="Star.cs" t="Include" />
+            <e p="StarSpawner.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
             <e p="PlayerAim.cs" t="Include" />
             <e p="PlayerAmmunition.cs" t="Include" />
             <e p="PlayerGun.cs" t="Include" />
             <e p="PlayerHealth.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
+            <e p="ScreenBoarder.cs" t="Include" />
           </e>
           <e p="Projectile" t="Include">
+            <e p="Cannon.cs" t="Include" />
             <e p="ClusterExplosion.cs" t="Include" />
             <e p="Projectile.cs" t="Include" />
             <e p="Shooter.cs" t="Include" />
             <e p="Spinner.cs" t="Include" />
           </e>
-          <e p="ScreenBoarder.cs" t="Include" />
-          <e p="Spawner.cs" t="Include" />
-          <e p="Star.cs" t="Include" />
-          <e p="UIAmmunition.cs" t="Include" />
-          <e p="UIHealth.cs" t="Include" />
+          <e p="Turret.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="UIAmmunition.cs" t="Include" />
+            <e p="UIHealth.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

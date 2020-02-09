@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 351782595313069942}
-  - component: {fileID: 1036520313}
   m_Layer: 0
   m_Name: starSpawner
   m_TagString: Untagged
@@ -39,25 +38,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1036520313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 351782595313069940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fc4de7231f5dce428c50296d5f2493a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 6376300360540517850, guid: 3e9baac459d9d934686185ec96663849, type: 3}
-  - {fileID: 1248816892616640507, guid: 3489b7c558f6b7f4dbe69ed28e81dea1, type: 3}
-  - {fileID: 2554658146076580420, guid: b1431a53e1f93124a9240d8834a5fe6a, type: 3}
-  - {fileID: 2085057847586219957, guid: 37a6749d250a3734cb26cd1ba347b839, type: 3}
-  timeUntilFirstSpawn: 2
-  timeBetweenspawns: 5
 --- !u!1 &351782596112227017
 GameObject:
   m_ObjectHideFlags: 0

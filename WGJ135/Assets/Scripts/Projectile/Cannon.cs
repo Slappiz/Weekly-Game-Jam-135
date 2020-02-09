@@ -22,6 +22,26 @@ public class Cannon : MonoBehaviour
     private void TakeDamage()
     {
         health -= 1;
-        if(health <= 0) Destroy(this.gameObject);
+        if (health > 0) return;
+        
+        switch (color)
+        {
+            case Star.STAR.Blue:
+                GameEvents.OnBlueCannon();
+                break;
+            case Star.STAR.Red:
+                GameEvents.OnRedCannon();
+                break;
+            case Star.STAR.Yellow:
+                GameEvents.OnYellowCannon();
+                break;
+            case Star.STAR.Purple:
+                GameEvents.OnPurpleCannon();
+                break;
+            default:
+                break;
+        }
+
+        Destroy(this.gameObject);
     }
 }

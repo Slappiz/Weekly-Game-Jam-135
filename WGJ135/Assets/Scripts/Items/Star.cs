@@ -14,23 +14,25 @@ public class Star : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag != "Player") return;
+        switch (starColor)
         {
-            if (starColor == STAR.Blue)
-            {
+            case STAR.Blue:
                 GameEvents.OnBlueStar();
-            }else if (starColor == STAR.Red)
-            {
+                break;
+            case STAR.Red:
                 GameEvents.OnRedStar();
-            }else if (starColor == STAR.Yellow)
-            {
+                break;
+            case STAR.Yellow:
                 GameEvents.OnYellowStar();
-            }else if (starColor == STAR.Purple)
-            {
+                break;
+            case STAR.Purple:
                 GameEvents.OnPurpleStar();
-            }
-            
-            Destroy(this.gameObject);
+                break;
+            default:
+                break;
         }
+
+        Destroy(this.gameObject);
     }
 }
