@@ -14,8 +14,8 @@ public class Cannon : MonoBehaviour
             if (ammoColor == color)
             {
                 TakeDamage();
+                Destroy(other.gameObject);
             }
-            Destroy(this.gameObject);
         }
     }
 
