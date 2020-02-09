@@ -3,6 +3,7 @@
         public static System.Action GameOver;
         public static System.Action PlayerDamage;
         public static System.Action PlayerHeal;
+        public static System.Action PlayerShoot;
         public static System.Action PurpleStar;
         public static System.Action YellowStar;
         public static System.Action RedStar;
@@ -23,6 +24,11 @@
                 PlayerHeal?.Invoke();
         }
 
+        public static void OnPlayerShoot()
+        {
+                PlayerShoot?.Invoke();
+        }
+        
         public static void OnPurpleStar()
         {
                 PurpleStar?.Invoke();

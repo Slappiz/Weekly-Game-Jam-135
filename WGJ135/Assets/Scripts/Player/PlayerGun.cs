@@ -62,7 +62,7 @@ public class PlayerGun : MonoBehaviour
     public void Shoot()
     {
         if (ammoCount == 0) return;
-        
+        GameEvents.OnPlayerShoot();
         GameObject projectile = Instantiate(activeAmmo, transform.position, transform.rotation);
         projectile.transform.localRotation = transform.localRotation;
         if (ammoSpawnPosition) projectile.transform.position = ammoSpawnPosition.position;

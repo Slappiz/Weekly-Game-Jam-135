@@ -441,6 +441,7 @@
           <e p="ScreenBoarder.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />
           <e p="Star.cs" t="Include" />
+          <e p="UIAmmunition.cs" t="Include" />
           <e p="UIHealth.cs" t="Include" />
         </e>
       </e>
