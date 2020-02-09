@@ -423,6 +423,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="GameEvents.cs" t="Include" />
+          <e p="Heal.cs" t="Include" />
           <e p="Player" t="Include">
             <e p="PlayerAim.cs" t="Include" />
             <e p="PlayerHealth.cs" t="Include" />
@@ -435,6 +436,8 @@
             <e p="Spinner.cs" t="Include" />
           </e>
           <e p="ScreenBoarder.cs" t="Include" />
+          <e p="Spawner.cs" t="Include" />
+          <e p="Star.cs" t="Include" />
           <e p="UIHealth.cs" t="Include" />
         </e>
       </e>
