@@ -34,7 +34,7 @@ public class Turret : MonoBehaviour
     void BoostTurret()
     {
         cannonsDestroyed++;
-        if(cannonsDestroyed <= 4) GameEvents.OnLevelCompleted();
+        if(cannonsDestroyed >= 4) GameEvents.OnLevelCompleted();
         spinner.rotationSpeed += spinneModifier;
         BoostCannons();
     }

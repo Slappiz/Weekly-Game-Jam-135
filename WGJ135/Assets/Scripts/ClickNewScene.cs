@@ -8,6 +8,7 @@ public class ClickNewScene : MonoBehaviour
 {
     public bool isGameOver = false;
     public GameObject textAndCollider;
+    public float timeUntilActive = 1f;
     private void Start()
     {
         textAndCollider.SetActive(false);
@@ -20,9 +21,12 @@ public class ClickNewScene : MonoBehaviour
         textAndCollider.SetActive(true);
     }
 
-    private void OnMouseDown()
+    private void Update()
     {
-        if(!isGameOver)SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1);
-        else SceneManager.LoadScene (0);
+        if (Input.anyKey)
+        {
+            if(!isGameOver)SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1);
+            else SceneManager.LoadScene (0);
+        }
     }
 }

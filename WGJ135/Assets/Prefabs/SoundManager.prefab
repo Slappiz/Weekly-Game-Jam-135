@@ -46,13 +46,13 @@ MonoBehaviour:
   sounds:
   - name: MainMenu
     clip: {fileID: 8300000, guid: 5b8ef7bef68eb1c448ea3db82dd62ebc, type: 3}
-    loop: 0
+    loop: 1
     volume: 0.5
     pitch: 1
     source: {fileID: 0}
   - name: Credits
     clip: {fileID: 8300000, guid: fc8bd82e2e170b040ae98fc74d94bda1, type: 3}
-    loop: 0
+    loop: 1
     volume: 0.5
     pitch: 1
     source: {fileID: 0}
@@ -100,25 +100,25 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Level1
     clip: {fileID: 8300000, guid: dda4512f8be00bb4ca79d832a4d28f9d, type: 3}
-    loop: 0
+    loop: 1
     volume: 0.45
     pitch: 1
     source: {fileID: 0}
   - name: Level2
     clip: {fileID: 8300000, guid: 198c7126767dfb84fa2915760cdb76c8, type: 3}
-    loop: 0
+    loop: 1
     volume: 0.45
     pitch: 1
     source: {fileID: 0}
   - name: Level3
     clip: {fileID: 8300000, guid: f3db64df8aea9c54a85a1a821b2cdfd1, type: 3}
-    loop: 0
+    loop: 1
     volume: 0.45
     pitch: 1
     source: {fileID: 0}
   - name: Level4
     clip: {fileID: 8300000, guid: 555809c1583988f4989a26014b60db03, type: 3}
-    loop: 0
+    loop: 1
     volume: 0.45
     pitch: 1
     source: {fileID: 0}
