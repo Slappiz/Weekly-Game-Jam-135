@@ -9,6 +9,9 @@ public class Turret : MonoBehaviour
     public float spinneModifier = 25f;
     [Range(0, 1)]public float fireRateModifier = 0.9f;
     public Shooter[] cannons;
+    public float timeUntilActive = 5f;
+
+    private int cannonsDestroyed = 0;
     
     private void Start()
     {
@@ -16,10 +19,22 @@ public class Turret : MonoBehaviour
         GameEvents.RedCannon += BoostTurret;
         GameEvents.YellowCannon += BoostTurret;
         GameEvents.PurpleCannon += BoostTurret;
+        
+        Invoke("StartTurret", timeUntilActive);
+    }
+
+    void StartTurret()
+    {
+        foreach (Shooter cannon in cannons)
+        {
+            if (cannon != null) cannon.StartShooting();
+        }
     }
 
     void BoostTurret()
     {
+        cannonsDestroyed++;
+        if(cannonsDestroyed <= 4) GameEvents.OnLevelCompleted();
         spinner.rotationSpeed += spinneModifier;
         BoostCannons();
     }

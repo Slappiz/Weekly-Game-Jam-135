@@ -689,7 +689,7 @@ MonoBehaviour:
   - {fileID: 1248816892616640507, guid: 3489b7c558f6b7f4dbe69ed28e81dea1, type: 3}
   - {fileID: 6376300360540517850, guid: 3e9baac459d9d934686185ec96663849, type: 3}
   - {fileID: 2085057847586219957, guid: 37a6749d250a3734cb26cd1ba347b839, type: 3}
-  timeUntilFirstSpawn: 2
+  timeUntilFirstSpawn: 5
   timeBetweenspawns: 5
 --- !u!1 &691733962016886758
 GameObject:
@@ -1742,7 +1742,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &691733963407851915
+--- !u!114 &238806947
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1755,12 +1755,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spinner: {fileID: 691733963407851915}
-  spinneModifier: 50
+  spinneModifier: 25
+  fireRateModifier: 0.9
   cannons:
   - {fileID: 6559669218345894352}
   - {fileID: 825809335899709236}
   - {fileID: 1535411279051327814}
   - {fileID: 844900115242140176}
+  timeUntilActive: 5
 --- !u!114 &691733963428095401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2117,7 +2119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4170310027668293234}
   m_Layer: 0
-  m_Name: LevelStarter
+  m_Name: LevelStarter1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3296,11 +3298,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret
       objectReference: {fileID: 0}
-    - target: {fileID: 5244477028766858392, guid: e3b5f88bf3d110647909ae0be193abbc,
-        type: 3}
-      propertyPath: rotationSpeed
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: 5244477028766858393, guid: e3b5f88bf3d110647909ae0be193abbc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3355,16 +3352,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1898557701109447902, guid: e3b5f88bf3d110647909ae0be193abbc,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6061642932389950536, guid: e3b5f88bf3d110647909ae0be193abbc,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3b5f88bf3d110647909ae0be193abbc, type: 3}
@@ -3506,6 +3493,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202819662789118557, guid: b0bca5c214d30e04b9bd0ef33ac9f2dc,
+        type: 3}
+      propertyPath: timeUntilFirstSpawn
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202819662789118557, guid: b0bca5c214d30e04b9bd0ef33ac9f2dc,
+        type: 3}
+      propertyPath: timeBetweenspawns
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0bca5c214d30e04b9bd0ef33ac9f2dc, type: 3}

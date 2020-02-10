@@ -424,6 +424,7 @@
         <e p="Scripts" t="Include">
           <e p="ClickNewScene.cs" t="Include" />
           <e p="GameEvents.cs" t="Include" />
+          <e p="GameOverScreen.cs" t="Include" />
           <e p="Items" t="Include">
             <e p="Heal.cs" t="Include" />
             <e p="Skull.cs" t="Include" />

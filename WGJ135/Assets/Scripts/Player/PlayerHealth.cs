@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     private void Start()
     {
         currentHealth = maxHealth;
+        GameEvents.LevelCompleted += OnWin;
     }
 
     public void TakeDamage(int damage)
@@ -21,6 +23,12 @@ public class PlayerHealth : MonoBehaviour
             GameEvents.OnGameOver();
             Destroy(this.gameObject);
         }
+        
+    }
+
+    void OnWin()
+    {
+        gameObject.tag = "Untagged";
     }
 
     public void HealDamage(int damage)
@@ -31,7 +39,11 @@ public class PlayerHealth : MonoBehaviour
         if (currentHealth > maxHealth)
         {
             currentHealth = maxHealth;
-            
         }
+    }
+
+    private void OnDestroy()
+    {
+        GameEvents.LevelCompleted -= OnWin;
     }
 }

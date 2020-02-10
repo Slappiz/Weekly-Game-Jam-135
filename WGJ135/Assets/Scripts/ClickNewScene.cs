@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class ClickNewScene : MonoBehaviour
 {
+    public bool isGameOver = false;
     public GameObject textAndCollider;
     private void Start()
     {
@@ -19,8 +20,9 @@ public class ClickNewScene : MonoBehaviour
         textAndCollider.SetActive(true);
     }
 
-    private void OnMouseExit()
+    private void OnMouseDown()
     {
-        SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1);
+        if(!isGameOver)SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1);
+        else SceneManager.LoadScene (0);
     }
 }

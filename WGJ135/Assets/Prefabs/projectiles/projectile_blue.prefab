@@ -16,7 +16,7 @@ MonoBehaviour:
     type: 3}
   destroyOnExplosion: 1
   timeToDetonate: 0.75
-  numberOfProjectiles: 5
+  numberOfProjectiles: 6
   radius: 1
   projectileForce: 2.5
 --- !u!114 &6099733516729013611

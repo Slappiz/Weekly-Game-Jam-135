@@ -1,7 +1,7 @@
 ﻿public static class GameEvents
 { 
         public static System.Action GameOver;
-        
+        public static System.Action LevelCompleted;
         public static System.Action PlayerDamage;
         public static System.Action PlayerHeal;
         public static System.Action PlayerShoot;
@@ -19,6 +19,11 @@
         public static void OnGameOver()
         {
                 GameOver?.Invoke();
+        }
+
+        public static void OnLevelCompleted()
+        {
+                LevelCompleted?.Invoke();
         }
 
         public static void OnPlayerDamage()

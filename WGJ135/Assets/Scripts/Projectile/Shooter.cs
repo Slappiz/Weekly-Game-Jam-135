@@ -14,11 +14,6 @@ public class Shooter : MonoBehaviour
     {
         Blue, Red, Purple, Yellow
     }
-    
-    private void Start()
-    {
-        InvokeRepeating("Shoot", 1, timeBetweenShots);
-    }
 
     public void StartShooting()
     {
