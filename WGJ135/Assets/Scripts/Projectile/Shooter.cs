@@ -20,6 +20,16 @@ public class Shooter : MonoBehaviour
         InvokeRepeating("Shoot", 1, timeBetweenShots);
     }
 
+    public void StartShooting()
+    {
+        InvokeRepeating("Shoot", 0.1f, timeBetweenShots);
+    }
+
+    public void StopShooting()
+    {
+        CancelInvoke("Shoot");
+    }
+
     private void PlayCannonSound()
     {
         switch (color)

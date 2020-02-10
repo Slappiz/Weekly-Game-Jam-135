@@ -425,6 +425,7 @@
           <e p="GameEvents.cs" t="Include" />
           <e p="Items" t="Include">
             <e p="Heal.cs" t="Include" />
+            <e p="Skull.cs" t="Include" />
             <e p="Spawner.cs" t="Include" />
             <e p="Star.cs" t="Include" />
             <e p="StarSpawner.cs" t="Include" />

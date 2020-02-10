@@ -12,9 +12,11 @@ public class LevelManager : MonoBehaviour
 
     void PlayMusic()
     {
-        if (SceneManager.GetActiveScene().name == "Level1")
-        {
-            SoundManager.instance.Play(SceneManager.GetActiveScene().name);
-        }
+        SoundManager.instance.Play(SceneManager.GetActiveScene().name);
+    }
+    
+    void StopMusic()
+    {
+        SoundManager.instance.Stop(SceneManager.GetActiveScene().name);
     }
 }

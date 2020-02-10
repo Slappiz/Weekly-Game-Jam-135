@@ -169,5 +169,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabs:
   - {fileID: 1103310035819534334, guid: f0d887db80a1d0340b7cbd99e49c4825, type: 3}
-  timeUntilFirstSpawn: 10
-  timeBetweenspawns: 10
+  timeUntilFirstSpawn: 15
+  timeBetweenspawns: 15
