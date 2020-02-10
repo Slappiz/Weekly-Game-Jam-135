@@ -5,18 +5,19 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
-    private void Start()
+    private void Awake()
     {
-        PlayMusic();
+        SceneManager.sceneLoaded += PlayMusic;
+        SceneManager.sceneUnloaded += StopMusic;
     }
 
-    void PlayMusic()
+    void PlayMusic(Scene current, LoadSceneMode single)
     {
-        SoundManager.instance.Play(SceneManager.GetActiveScene().name);
+        SoundManager.instance.Play(current.name);
     }
     
-    void StopMusic()
+    void StopMusic(Scene current)
     {
-        SoundManager.instance.Stop(SceneManager.GetActiveScene().name);
+        SoundManager.instance.Stop(current.name);
     }
 }
