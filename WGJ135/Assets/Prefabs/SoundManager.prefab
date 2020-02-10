@@ -128,5 +128,17 @@ MonoBehaviour:
     volume: 0.45
     pitch: 1
     source: {fileID: 0}
+  - name: TakeDamage
+    clip: {fileID: 8300000, guid: ca0271ed64f2c5b4b97fa961973f08ab, type: 3}
+    loop: 0
+    volume: 0.45
+    pitch: 1
+    source: {fileID: 0}
+  - name: HealDamage
+    clip: {fileID: 8300000, guid: 80ac740810029df4aad95d6a5c08cc44, type: 3}
+    loop: 0
+    volume: 0.45
+    pitch: 1
+    source: {fileID: 0}
   unmuteOnFocus: 0
   isMuted: 0

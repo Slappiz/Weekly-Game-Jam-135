@@ -25,6 +25,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void HealDamage(int damage)
     {
+        SoundManager.instance.Play("HealDamage");
         GameEvents.OnPlayerHeal();
         currentHealth += damage;
         if (currentHealth > maxHealth)
