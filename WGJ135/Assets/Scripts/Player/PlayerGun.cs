@@ -61,7 +61,11 @@ public class PlayerGun : MonoBehaviour
     
     public void Shoot()
     {
-        if (ammoCount == 0) return;
+        if (ammoCount == 0)
+        {
+            SoundManager.instance.Play("Noammo");
+            return;
+        }
         GameEvents.OnPlayerShoot();
         GameObject projectile = Instantiate(activeAmmo, transform.position, transform.rotation);
         projectile.transform.localRotation = transform.localRotation;
@@ -72,10 +76,12 @@ public class PlayerGun : MonoBehaviour
 
         ammoCount -= 1;
         OutOfAmmo();
+        SoundManager.instance.Play("Gun");
     }
 
     void SetAmmo()
     {
+        SoundManager.instance.Play("Reload");
         ammoCount = ammoOnPickUp;
     }
 

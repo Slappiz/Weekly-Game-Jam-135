@@ -429,6 +429,7 @@
             <e p="Star.cs" t="Include" />
             <e p="StarSpawner.cs" t="Include" />
           </e>
+          <e p="LevelManager.cs" t="Include" />
           <e p="Player" t="Include">
             <e p="PlayerAim.cs" t="Include" />
             <e p="PlayerAmmunition.cs" t="Include" />
@@ -443,6 +444,10 @@
             <e p="Projectile.cs" t="Include" />
             <e p="Shooter.cs" t="Include" />
             <e p="Spinner.cs" t="Include" />
+          </e>
+          <e p="Sound" t="Include">
+            <e p="Sound.cs" t="Include" />
+            <e p="SoundManager.cs" t="Include" />
           </e>
           <e p="Turret.cs" t="Include" />
           <e p="UI" t="Include">

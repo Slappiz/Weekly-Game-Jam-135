@@ -7,6 +7,8 @@ public class Turret : MonoBehaviour
 {
     public Spinner spinner;
     public float spinneModifier = 25f;
+    public Shooter[] cannons;
+    
     private void Start()
     {
         GameEvents.BlueCannon += BoostTurret;

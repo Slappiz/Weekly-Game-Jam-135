@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4414768243357929956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4414768243357929958}
+  - component: {fileID: 4414768243357929959}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4414768243357929958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4414768243357929956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.831037, y: -2.319358, z: -0.3297472}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4414768243357929959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4414768243357929956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6daf205f22db9f64ea959fda4c4339a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainMenu
+    clip: {fileID: 8300000, guid: 5b8ef7bef68eb1c448ea3db82dd62ebc, type: 3}
+    loop: 0
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: Credits
+    clip: {fileID: 8300000, guid: fc8bd82e2e170b040ae98fc74d94bda1, type: 3}
+    loop: 0
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: Cannon_Blue
+    clip: {fileID: 8300000, guid: 95cf17953f36d4941a225b154d725a39, type: 3}
+    loop: 0
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: Cannon_Red
+    clip: {fileID: 8300000, guid: edf39476bfa5cc0479f777f728e17f35, type: 3}
+    loop: 0
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: Cannon_Purple
+    clip: {fileID: 8300000, guid: bbbd888a2080ea44f8cdd51309124bef, type: 3}
+    loop: 0
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: Cannon_Yellow
+    clip: {fileID: 8300000, guid: b48dfd74df376b7439a66fde93522246, type: 3}
+    loop: 0
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: Gun
+    clip: {fileID: 8300000, guid: ccd8aa51d636d48409d647c288d98c22, type: 3}
+    loop: 0
+    volume: 0.25
+    pitch: 0.85
+    source: {fileID: 0}
+  - name: Noammo
+    clip: {fileID: 8300000, guid: b593e7a714bb3df4d9ef54c7259a977b, type: 3}
+    loop: 0
+    volume: 0.39
+    pitch: 1
+    source: {fileID: 0}
+  - name: Reload
+    clip: {fileID: 8300000, guid: c602bdf6eb9825e4a9ccb8f6713ae5a4, type: 3}
+    loop: 0
+    volume: 0.39
+    pitch: 1
+    source: {fileID: 0}
+  unmuteOnFocus: 0
+  isMuted: 0
