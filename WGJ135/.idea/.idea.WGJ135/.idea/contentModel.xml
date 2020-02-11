@@ -457,6 +457,7 @@
             <e p="UIAmmunition.cs" t="Include" />
             <e p="UIHealth.cs" t="Include" />
           </e>
+          <e p="WinScreen.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">

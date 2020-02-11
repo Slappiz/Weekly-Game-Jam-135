@@ -59,32 +59,32 @@ MonoBehaviour:
   - name: Cannon_Blue
     clip: {fileID: 8300000, guid: 95cf17953f36d4941a225b154d725a39, type: 3}
     loop: 0
-    volume: 0.3
-    pitch: 1
+    volume: 0.1
+    pitch: 0.6
     source: {fileID: 0}
   - name: Cannon_Red
     clip: {fileID: 8300000, guid: edf39476bfa5cc0479f777f728e17f35, type: 3}
     loop: 0
-    volume: 0.3
-    pitch: 1
+    volume: 0.1
+    pitch: 0.6
     source: {fileID: 0}
   - name: Cannon_Purple
     clip: {fileID: 8300000, guid: bbbd888a2080ea44f8cdd51309124bef, type: 3}
     loop: 0
-    volume: 0.3
-    pitch: 1
+    volume: 0.1
+    pitch: 0.6
     source: {fileID: 0}
   - name: Cannon_Yellow
     clip: {fileID: 8300000, guid: b48dfd74df376b7439a66fde93522246, type: 3}
     loop: 0
-    volume: 0.3
-    pitch: 1
+    volume: 0.1
+    pitch: 0.6
     source: {fileID: 0}
   - name: Gun
     clip: {fileID: 8300000, guid: ccd8aa51d636d48409d647c288d98c22, type: 3}
     loop: 0
-    volume: 0.25
-    pitch: 0.85
+    volume: 0.2
+    pitch: 1
     source: {fileID: 0}
   - name: Noammo
     clip: {fileID: 8300000, guid: b593e7a714bb3df4d9ef54c7259a977b, type: 3}
@@ -101,25 +101,25 @@ MonoBehaviour:
   - name: Level1
     clip: {fileID: 8300000, guid: dda4512f8be00bb4ca79d832a4d28f9d, type: 3}
     loop: 1
-    volume: 0.45
+    volume: 0.4
     pitch: 1
     source: {fileID: 0}
   - name: Level2
     clip: {fileID: 8300000, guid: 198c7126767dfb84fa2915760cdb76c8, type: 3}
     loop: 1
-    volume: 0.45
+    volume: 0.4
     pitch: 1
     source: {fileID: 0}
   - name: Level3
     clip: {fileID: 8300000, guid: f3db64df8aea9c54a85a1a821b2cdfd1, type: 3}
     loop: 1
-    volume: 0.45
+    volume: 0.4
     pitch: 1
     source: {fileID: 0}
   - name: Level4
     clip: {fileID: 8300000, guid: 555809c1583988f4989a26014b60db03, type: 3}
     loop: 1
-    volume: 0.45
+    volume: 0.4
     pitch: 1
     source: {fileID: 0}
   - name: Credits

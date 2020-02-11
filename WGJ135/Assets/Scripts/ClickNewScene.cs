@@ -23,9 +23,10 @@ public class ClickNewScene : MonoBehaviour
 
     private void Update()
     {
-        if (Input.anyKey)
+        if (Input.anyKeyDown)
         {
-            if(!isGameOver)SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1);
+            if(SceneManager.GetActiveScene().name.ToString() == "Credits") SceneManager.LoadScene (0);
+            else if(!isGameOver)SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1);
             else SceneManager.LoadScene (0);
         }
     }
