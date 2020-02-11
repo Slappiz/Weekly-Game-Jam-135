@@ -20,4 +20,12 @@ public class LevelManager : MonoBehaviour
     {
         SoundManager.instance.Stop(current.name);
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
 }

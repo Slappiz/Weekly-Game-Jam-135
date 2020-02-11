@@ -21,6 +21,7 @@ public class Cannon : MonoBehaviour
 
     private void TakeDamage()
     {
+        SoundManager.instance.Play("CannonDamage");
         health -= 1;
         if (health > 0) return;
         

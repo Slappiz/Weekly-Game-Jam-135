@@ -313,7 +313,7 @@ RectTransform:
   m_GameObject: {fileID: 404964143}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.9224, y: 1.9224, z: 1.9224}
   m_Children: []
   m_Father: {fileID: 1052205276}
   m_RootOrder: 2
@@ -550,7 +550,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 205826729}
-  m_PlaneDistance: 100
+  m_PlaneDistance: 89.17
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -670,11 +670,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4414768243357929956, guid: a2573f1a26685fe429de0a1f9e6a4f19,
-        type: 3}
-      propertyPath: m_Name
-      value: SoundManager
-      objectReference: {fileID: 0}
     - target: {fileID: 4414768243357929958, guid: a2573f1a26685fe429de0a1f9e6a4f19,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -729,6 +724,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414768243357929956, guid: a2573f1a26685fe429de0a1f9e6a4f19,
+        type: 3}
+      propertyPath: m_Name
+      value: SoundManager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2573f1a26685fe429de0a1f9e6a4f19, type: 3}
@@ -901,11 +901,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 812467286353578204, guid: cc4984a54067b75448709c5ed76f47f1,
-        type: 3}
-      propertyPath: m_Name
-      value: LevelManager
-      objectReference: {fileID: 0}
     - target: {fileID: 812467286353578205, guid: cc4984a54067b75448709c5ed76f47f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -960,6 +955,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 812467286353578204, guid: cc4984a54067b75448709c5ed76f47f1,
+        type: 3}
+      propertyPath: m_Name
+      value: LevelManager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc4984a54067b75448709c5ed76f47f1, type: 3}
@@ -1121,14 +1121,14 @@ RectTransform:
   m_GameObject: {fileID: 1946877694}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1}
-  m_LocalScale: {x: 15, y: 15, z: 10}
+  m_LocalScale: {x: 31.086002, y: 31.086002, z: 20.724}
   m_Children: []
   m_Father: {fileID: 1052205276}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 26}
+  m_AnchoredPosition: {x: 0, y: 110}
   m_SizeDelta: {x: 500, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1946877696
