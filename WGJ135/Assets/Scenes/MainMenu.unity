@@ -730,6 +730,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: SoundManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4414768243357929959, guid: a2573f1a26685fe429de0a1f9e6a4f19,
+        type: 3}
+      propertyPath: sounds.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414768243357929959, guid: a2573f1a26685fe429de0a1f9e6a4f19,
+        type: 3}
+      propertyPath: sounds.Array.data[16].name
+      value: CannonDamage
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414768243357929959, guid: a2573f1a26685fe429de0a1f9e6a4f19,
+        type: 3}
+      propertyPath: sounds.Array.data[16].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 194ee90abd99ae64d9accbc43d781bf8, type: 3}
+    - target: {fileID: 4414768243357929959, guid: a2573f1a26685fe429de0a1f9e6a4f19,
+        type: 3}
+      propertyPath: sounds.Array.data[16].volume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414768243357929959, guid: a2573f1a26685fe429de0a1f9e6a4f19,
+        type: 3}
+      propertyPath: sounds.Array.data[16].pitch
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2573f1a26685fe429de0a1f9e6a4f19, type: 3}
 --- !u!1 &1330612123
