@@ -1,5 +1,5 @@
 # Star-Lord
-A game created for 'Weekly Game Jam - Week 135'. Theme of the week, 'Shooting Stars'.
+A prototype created for 'Weekly Game Jam - Week 135'. Theme of the week, 'Shooting Stars'.
 
 
 **Title:** Star-Lord
